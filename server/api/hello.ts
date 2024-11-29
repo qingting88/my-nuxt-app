@@ -1,5 +1,5 @@
 export default defineEventHandler(async () => {
   return {
-    message:'wei'
+    message:`wei ${Date.now()}`
   }
 });
